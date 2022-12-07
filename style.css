@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background-color: #3A4440;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: #2FDC97;
+    font-size: 110px;
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    color: #2FDC97;
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 70px;
+}
+
+.dice-player1 {
+    padding-right: 40px;
+}
+
+.table-game {
+    display: flex;
+    justify-content: center;
+}
+
+.play {
+    font-family: 'Indie Flower', cursive;
+    display: relative;
+    transform: translateX(180%);
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 50px;
+    color: red;
+    font-size: 30px;
+    border: 3px #2FDC97;
+}
